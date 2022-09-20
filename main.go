@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
-	"todo/config"
+	"todo/app/models"
 )
 
 func main() {
-	fmt.Println(config.Config.Port)
-	fmt.Println(config.Config.SQLDriver)
-	fmt.Println(config.Config.DbName)
-	fmt.Println(config.Config.LogFile)
+	fmt.Println(models.Db)
+
+	u := &models.User{}
 }
