@@ -8,7 +8,7 @@ on:
       - '*'
   pull_request:
     branches:
-      - 'feature/'
+      - '*'
 # 実行するジョブを指定
 # feature/をpushするとjobsの内容が作動する
 jobs:
